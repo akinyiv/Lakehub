@@ -1,0 +1,53 @@
+/* body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+} */
+.panel {
+    height: 8vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+}
+.panel.active {
+    height: 70vh;
+    
+}
+.panel.active h2 {
+    opacity: 1;
+}
+.panel h2 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+}
+.container {
+    height: 98vh;
+}
+#image-1 {
+    background-image: url('./img/beauty.jpg');
+}
+#image-2 {
+    background-image: url('./img/decor.jpg');
+}
+#image-3 {
+    background-image: url('./img/Leisure.jpg');
+}
+#image-4 {
+    background-image: url('./img/research.jpg');
+}
+#image-5 {
+    background-image: url('./img/work.jpg');
+}
+#image-6 {
+    background-image: url('./img/globe.jpg');
+}
