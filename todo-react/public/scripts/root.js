@@ -42,6 +42,12 @@ var template = React.createElement(
 );
 
 var count = 0;
+
+function increment() {
+    count++;
+    console.log(count);
+}
+
 var addOne = function addOne() {
     console.log("addone");
 };

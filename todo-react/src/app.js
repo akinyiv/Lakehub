@@ -18,8 +18,15 @@ let template = (
 );
 
 let count = 0;
+
+function increment() {
+        count++;
+    console.log(count);
+}
+
 const addOne =() => {
     console.log("addone");
+         
 };
 const minusOne =() => {
     console.log("minusone");
