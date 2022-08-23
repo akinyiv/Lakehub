@@ -14,15 +14,15 @@ let template = (
             <li>Nairobi</li>
             <li>Malindi</li>
         </ul>
+
+        <h1>Landscape</h1>
+        <img src="./img.jpg"></img>
     </div>
 );
 
 let count = 0;
 
-function increment() {
-        count++;
-    console.log(count);
-}
+
 
 const addOne =() => {
     console.log("addone");
@@ -46,4 +46,5 @@ let templateTwo = (
 
 let appRoot = document.getElementById("app");
 
-ReactDOM.render(templateTwo, appRoot);
+// ReactDOM.render(templateTwo, appRoot);
+// ReactDOM.render(template, appRoot);
