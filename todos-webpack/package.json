@@ -4,19 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "babel src/counter.js --out-file=public/scripts/root.js --presets=env,react --watch",
-    "serve": "live-server public/"
+    "build": "webpack --watch",
+    "serve": "live-server public/",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "author": "Vee",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "live-server": "^1.2.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "webpack": "^3.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
   }
 }
