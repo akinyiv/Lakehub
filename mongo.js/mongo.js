@@ -1,7 +1,7 @@
 const mongodb = require("mongodb");
 const MongoClient = mongodb.MongoClient;
 
-const connectionURL = "mongodb+srv://Vee:velma@cluster0.zvjqhrk.mongodb.net/?retryWrites=true&w=majority";
+const connectionURL = ("mongodb+srv://Vee:velma@cluster0.zvjqhrk.mongodb.net/");
 const databaseName = "task-manager";
 
 MongoClient.connect(connectionURL, (error, client) => {
